@@ -1,0 +1,20 @@
+Source: rt-extension-mergeusers
+Section: perl
+Priority: optional
+Maintainer: Andrew Ruthven <andrew@etc.gen.nz>
+Build-Depends: debhelper (>= 9.20120312)
+Build-Depends-Indep: perl
+ , libmodule-install-rtx-perl
+Standards-Version: 3.9.8
+Vcs-Git: https://salsa.debian.org/request-tracker-team/rt-extension-commandbymail.git
+Vcs-Browser: https://salsa.debian.org/request-tracker-team/rt-extension-mergeusers
+Homepage: https://metacpan.org/release/RT-Extension-MergeUsers
+
+Package: rt4-extension-mergeusers
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends},
+ request-tracker4,
+ perl
+Description: Merge users (Request Tracker)
+ This extension allows merging users in Request Tracker.
+ .

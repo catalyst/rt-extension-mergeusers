@@ -1,0 +1,7 @@
+html usr/share/request-tracker4/plugins/RT-Extension-MergeUsers
+lib usr/share/request-tracker4/plugins/RT-Extension-MergeUsers
+bin/rt-clean-merged-users /usr/sbin
+bin/rt-merge-users /usr/sbin
+bin/rt-update-merged-users /usr/sbin
+
+
