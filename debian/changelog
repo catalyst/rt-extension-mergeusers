@@ -1,3 +1,10 @@
+rt-extension-mergeusers (1.03-2) unstable; urgency=medium
+
+  * Bump compat level to v10.
+  * Build for Buster.
+
+ -- Andrew Ruthven <puck@catalyst.net.nz>  Wed, 13 May 2020 17:12:58 +0000
+
 rt-extension-mergeusers (1.03-1) unstable; urgency=low
 
   * Initial Release (Closes #886525)
